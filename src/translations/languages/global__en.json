@@ -1,0 +1,23 @@
+{
+  "eng": {
+    "lang": "Language",
+    "profession": "WEB DEVELOPER",
+    "title": "JUAN CARLOS CRUZ CHACON",
+    "description": "Hello I am passionate software developer, with experience in Front-End and Back-End development. I specialize in creating websites that offer a unique and satisfactory user experience, implementing good practices, architectures and programming patterns to ensure the quality and efficiency of my projects. I take pride in analyzing requirements in detail and estimating the time needed to complete activities accurately. I am a self-taught person, responsible and committed to my work. I am always looking to learn new technologies and tools to continually improve my skills and stay up to date in the field of software development.",
+    "projects": "Projects",
+    "cv": "Download CV",
+    "skills": "Technologies",
+    "contact": "Contact Me",
+    "titleSkills": "TECHNOLOGIES",
+    "titleProjects": "PROJECTS",
+    "titleContact": "SEND ME A MESSAGE",
+    "name": "NAME",
+    "mail": "E-MAIL",
+    "message": "MESSAGE",
+    "btnSend": "SEND",
+    "aboutFooter": "ABOUT",
+    "home": "Home",
+    "develop": "DEVELOPED BY",
+    "social": "SOCIAL"
+  }
+}

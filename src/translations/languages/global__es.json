@@ -1,0 +1,23 @@
+{
+  "eng": {
+    "lang": "Lenguaje",
+    "profession": "DESARROLLADOR  WEB",
+    "title": "JUAN CARLOS CRUZ CHACON",
+    "description": "Hola soy un apasionado desarrollador de software, con experiencia en el desarrollo de Front-End y Back-End. Me especializo en crear sitios web que ofrezcan una experiencia de usuario única y satisfactoria, implementando las buenas practicas,arquitecturas y patrones de programación para asegurar la calidad y eficiencia de mis proyectos. Me enorgullece analizar los requerimientos detalladamente y estimar el tiempo necesario para completar las actividades de manera precisa. Soy una persona autodidacta, responsable y comprometida con mi trabajo. Siempre estoy buscando aprender nuevas tecnologías y herramientas para mejorar continuamente mis habilidades y mantenerme actualizado en el campo del desarrollo de software.",
+    "projects": "Proyectos",
+    "cv": "Descarga CV",
+    "skills": "Tecnologías",
+    "contact": "Contáctame",
+    "titleSkills": "TECNOLOGÍAS",
+    "titleProjects": "PROYECTOS",
+    "titleContact": "ENVÍAME UN MENSAJE",
+    "name": "NOMBRE",
+    "mail": "CORREO",
+    "message": "MENSAJE",
+    "btnSend": "ENVIAR",
+    "aboutFooter": "ACERCA DE",
+    "home": "Inicio",
+    "develop": "DESARROLLADO POR",
+    "social": "REDES"
+  }
+}
