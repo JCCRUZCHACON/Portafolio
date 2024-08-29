@@ -13,7 +13,7 @@ const Fotter = ({ handleCloseContactForm, t, language }) => {
             {t("eng.contact")}
           </p>
           <a
-            href={language?.language === "es" ? "/CV-FULL-STACK.pdf" : "/CV-FULL-STACK.pdf"} download
+            href={language?.language === "es" ? "/CV-FULL.pdf" : "/CV-FULL.pdf"} download
           >
             {t("eng.cv")}
           </a>
