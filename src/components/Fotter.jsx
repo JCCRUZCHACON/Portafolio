@@ -13,7 +13,7 @@ const Fotter = ({ handleCloseContactForm, t, language }) => {
             {t("eng.contact")}
           </p>
           <a
-            href={language?.language === "es" ? "/CV-FULL.pdf" : "/CV-FULL.pdf"} download
+            href={language?.language === "es" ? "/CV-DEV.pdf" : "/CV-DEV.pdf"} download
           >
             {t("eng.cv")}
           </a>
@@ -27,7 +27,8 @@ const Fotter = ({ handleCloseContactForm, t, language }) => {
         <h3>{t("eng.social")}</h3>
         <div className="flex gap-4 text-4xl">
           <a
-            href="https://www.linkedin.com/in/juan-carlos-cruz-chacon-508b2081/"
+            href="https://www.linkedin.com/in/juan-carlos-c-508b2081/"
+            
             target="_blank"
             className="hover:scale-105 transition-all hover:text-yellow-300 dark:hover:text-blue-600"
           >

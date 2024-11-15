@@ -41,7 +41,7 @@ const Projects = ({ t }) => {
         />
 
 <ProjectUnit
-          title={"CRUD"}
+          title={"USERS"}
           img={"bg-[url(/CRUD.jpg)]"}
           gitHub={""}
           demo={"https://users-crud-api.netlify.app/"}

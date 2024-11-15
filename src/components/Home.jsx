@@ -24,7 +24,7 @@ const Home = ({ handleCloseContactForm, t, language }) => {
           </button>
           <a
             className="bg-slate-950 font-semibold p-2 px-4 hover:bg-yellow-300 rounded-xl hover:text-slate-950 hover:scale-105 transition-all dark:bg-blue-600 flex items-center"
-            href={language?.language === "es" ? "/CV-FULL.pdf" : "/CV-FULL.pdf"}
+            href={language?.language === "es" ? "/CV-DEV.pdf" : "/CV-DEV.pdf"}
             download
           >
             {t("eng.cv")}
