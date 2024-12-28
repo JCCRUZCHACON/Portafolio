@@ -10,6 +10,20 @@ const Projects = ({ t }) => {
       <section className="min-h-screen p-3 grid grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))] gap-4 mb-8">
 
 
+      <ProjectUnit 
+        title={'Bookink Hotels'}
+        img={'bg-[url(/booking-app.jpg)]'}
+        gitHub={"https://github.com/JCCRUZCHACON/Booking-Front-Hotel"}
+        demo={"https://booking-app-hotel.netlify.app/"}
+        info={'Full stack hotel booking app'}
+        skill1={<i className="bx bxl-javascript"></i>}
+          skill2={<i className="bx bxl-html5"></i>}
+          skill3={<i className="bx bxl-css3"></i>}
+          skill4={<i className="bx bxl-react"></i>}
+          skill5={<i class='bx bxl-redux' ></i>}
+          skill6={<i class='bx bxl-nodejs'></i>}
+        />
+
 <ProjectUnit 
         title={'E-commerce'}
         img={'bg-[url(/e-comerce.png)]'}
