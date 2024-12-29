@@ -54,7 +54,7 @@ const Projects = ({ t }) => {
 
 <ProjectUnit 
         title={'Verified Users by Email App'}
-        img={'bg-[url(/user-verified.jpg)]'}
+        img={'bg-[url(/user-verfied.jpg)]'}
         gitHub={"https://github.com/JCCRUZCHACON/GEN5-FRONT-USER-VERIFED"}
         demo={"https://front-login-users.netlify.app/#/login"}
         info={'Full stack user verified app'}
