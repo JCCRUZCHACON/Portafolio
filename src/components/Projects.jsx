@@ -69,10 +69,10 @@ const Projects = ({ t }) => {
         />
 
 <ProjectUnit
-          title={"USERS"}
-          img={"bg-[url(/CRUD.jpg)]"}
-          gitHub={""}
-          demo={"https://users-crud-api.netlify.app/"}
+          title={"Creates Users"}
+          img={"bg-[url(/create-users.jpg)]"}
+          gitHub={"https://github.com/JCCRUZCHACON/Create-users"}
+          demo={"https://create-users-1.netlify.app/"}
           info={
             "Create, read, update and delete users with this amazing web app."
           }
