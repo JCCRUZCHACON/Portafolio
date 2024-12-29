@@ -10,12 +10,26 @@ const Projects = ({ t }) => {
       <section className="min-h-screen p-3 grid grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))] gap-4 mb-8">
 
 
-      <ProjectUnit 
-        title={'Bookink Hotels'}
+<ProjectUnit 
+        title={'Bookink Hotels App'}
         img={'bg-[url(/booking-app.jpg)]'}
         gitHub={"https://github.com/JCCRUZCHACON/Booking-Front-Hotel"}
         demo={"https://booking-app-hotel.netlify.app/"}
         info={'Full stack hotel booking app'}
+        skill1={<i className="bx bxl-javascript"></i>}
+          skill2={<i className="bx bxl-html5"></i>}
+          skill3={<i className="bx bxl-css3"></i>}
+          skill4={<i className="bx bxl-react"></i>}
+          skill5={<i class='bx bxl-redux' ></i>}
+          skill6={<i class='bx bxl-nodejs'></i>}
+        />
+
+<ProjectUnit 
+        title={'Barber Shop App'}
+        img={'bg-[url(/barber-shop-app.jpg)]'}
+        gitHub={"https://github.com/JCCRUZCHACON/Booking-Barber-Shop"}
+        demo={"https://barber-shop-app1.netlify.app/"}
+        info={'Full stack barber shop app'}
         skill1={<i className="bx bxl-javascript"></i>}
           skill2={<i className="bx bxl-html5"></i>}
           skill3={<i className="bx bxl-css3"></i>}
@@ -70,21 +84,6 @@ const Projects = ({ t }) => {
           skill6={""}
         />
 
-<ProjectUnit
-          title={"Rick and Morty App"}
-          img={"bg-[url(/rickymorty.png)]"}
-          gitHub={"https://github.com/JCCRUZCHACON/Ricky-Morty--App"}
-          demo={"https://ricky-morty-1.netlify.app/"}
-          info={
-            "Search every dimension in this web app and look all their characters, do you wanna know if there is alive?, you are in the right place."
-          }
-          skill1={<i className="bx bxl-javascript"></i>}
-          skill2={<i className="bx bxl-html5"></i>}
-          skill3={<i className="bx bxl-css3"></i>}
-          skill4={<i className="bx bxl-react"></i>}
-          skill5={<i className="bx bxl-tailwind-css"></i>}
-          skill6={""}
-        />
         
         <ProjectUnit
           title={"Weather App"}
@@ -99,22 +98,6 @@ const Projects = ({ t }) => {
           skill3={<i className="bx bxl-css3"></i>}
           skill4={<i className="bx bxl-react"></i>}
           skill5={<i className="bx bxl-tailwind-css"></i>}
-          skill6={""}
-        />
-
-<ProjectUnit
-          title={"Try your luck"}
-          img={"bg-[url(/try-your-luck.png)]"}
-          gitHub={"https://github.com/JCCRUZCHACON/Try-your-luck"}
-          demo={"https://try-your-luck-1.netlify.app/"}
-          info={
-            "try your luck in this app, click on button and read the random info that i have for you."
-          }
-          skill1={<i className="bx bxl-javascript"></i>}
-          skill2={<i className="bx bxl-html5"></i>}
-          skill3={<i className="bx bxl-css3"></i>}
-          skill4={<i className="bx bxl-react"></i>}
-          skill5={""}
           skill6={""}
         />
 
