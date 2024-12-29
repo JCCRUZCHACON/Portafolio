@@ -52,21 +52,20 @@ const Projects = ({ t }) => {
           skill6={""}
         />
 
-<ProjectUnit
-          title={"Pokedex"}
-          img={"bg-[url(/pokedex.png)]"}
-          gitHub={"https://github.com/JCCRUZCHACON/Pokedex"}
-          demo={"https://pokedex28.netlify.app/"}
-          info={
-            "Look info about pokemons, their skills, attacks and all their stadistics."
-          }
-          skill1={<i className="bx bxl-javascript"></i>}
+<ProjectUnit 
+        title={'Verified Users by Email App'}
+        img={'bg-[url(/user-verified.jpg)]'}
+        gitHub={"https://github.com/JCCRUZCHACON/GEN5-FRONT-USER-VERIFED"}
+        demo={"https://front-login-users.netlify.app/#/login"}
+        info={'Full stack user verified app'}
+        skill1={<i className="bx bxl-javascript"></i>}
           skill2={<i className="bx bxl-html5"></i>}
           skill3={<i className="bx bxl-css3"></i>}
           skill4={<i className="bx bxl-react"></i>}
-          skill5={<i className="bx bxl-tailwind-css"></i>}
-          skill6={""}
+          skill5={<i class='bx bxl-redux' ></i>}
+          skill6={<i class='bx bxl-nodejs'></i>}
         />
+
 
 <ProjectUnit
           title={"Creates Users"}
