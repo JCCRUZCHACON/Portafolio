@@ -11,6 +11,21 @@ const Projects = ({ t }) => {
 
 
 <ProjectUnit 
+        title={'Barber Shop App'}
+        img={'bg-[url(/barber-shop-app.jpg)]'}
+        gitHub={"https://github.com/JCCRUZCHACON/Booking-Barber-Shop"}
+        demo={"https://barber-shop-app1.netlify.app/"}
+        info={'Full stack barber shop app'}
+        skill1={<i className="bx bxl-javascript"></i>}
+          skill2={<i className="bx bxl-html5"></i>}
+          skill3={<i className="bx bxl-css3"></i>}
+          skill4={<i className="bx bxl-react"></i>}
+          skill5={<i class='bx bxl-redux' ></i>}
+          skill6={<i class='bx bxl-nodejs'></i>}
+        />
+
+
+<ProjectUnit 
         title={'Bookink Hotels App'}
         img={'bg-[url(/booking-app.jpg)]'}
         gitHub={"https://github.com/JCCRUZCHACON/Booking-Front-Hotel"}
@@ -24,19 +39,7 @@ const Projects = ({ t }) => {
           skill6={<i class='bx bxl-nodejs'></i>}
         />
 
-<ProjectUnit 
-        title={'Barber Shop App'}
-        img={'bg-[url(/barber-shop-app.jpg)]'}
-        gitHub={"https://github.com/JCCRUZCHACON/Booking-Barber-Shop"}
-        demo={"https://barber-shop-app1.netlify.app/"}
-        info={'Full stack barber shop app'}
-        skill1={<i className="bx bxl-javascript"></i>}
-          skill2={<i className="bx bxl-html5"></i>}
-          skill3={<i className="bx bxl-css3"></i>}
-          skill4={<i className="bx bxl-react"></i>}
-          skill5={<i class='bx bxl-redux' ></i>}
-          skill6={<i class='bx bxl-nodejs'></i>}
-        />
+
 
 <ProjectUnit 
         title={'E-commerce'}
@@ -51,6 +54,21 @@ const Projects = ({ t }) => {
           skill5={""}
           skill6={""}
         />
+
+
+<ProjectUnit 
+        title={'merchandise management'}
+        img={'bg-[url(/logistc-app.png)]'}
+        demo={"https://gestion-textil.netlify.app/"}
+        skill1={<i className="bx bxl-javascript"></i>}
+          skill2={<i className="bx bxl-html5"></i>}
+          skill3={<i className="bx bxl-css3"></i>}
+          skill4={<i className="bx bxl-react"></i>}
+          skill5={<i class='bx bxl-redux' ></i>}
+          skill6={<i class='bx bxl-nodejs'></i>}
+        />
+
+
 
 <ProjectUnit 
         title={'Verified Users by Email App'}
