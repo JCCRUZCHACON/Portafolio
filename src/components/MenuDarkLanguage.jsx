@@ -25,7 +25,7 @@ const MenuDarkLanguage = ({
         onClick={handleDarkMode}
         className={`text-3xl flex items-center cursor-pointer transition-all hover:rotate-180 hover:text-black-600 dark:rotate-180 dark:text-white-600 dark:hover:text-white dark:hover:rotate-0`}
       >
-        <i class='bx bxs-moon'></i>
+        <i className='bx bxs-moon'></i>
       </div>
     </section>
   );
