@@ -15,7 +15,7 @@ const Projects = ({ t }) => {
   title="ChatBot OpenAI App"
   img="bg-[url(/chatbot.png)]"
   gitHub="https://github.com/JCCRUZCHACON/WEB-CHATBOT-PERSONALIZADO-FRONTEND"
-  demo="https://barber-shop-app1.netlify.app/"
+  demo="https://web-chat-personalizado-front.netlify.app/#/negocio/empresa-de-abastecimiento-de-alimentos"
   info="Full stack app: Pagina Web con chatbot personalizado multifuncional para cualquier negocio."
   
   skills={[
