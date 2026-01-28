@@ -1,6 +1,7 @@
 import ProjectUnit from "./ProjectUnit";
 import openaiLogo from "../assets/openai-color.svg";
-
+import vueIcon from "../assets/vue_icon.svg"
+import pinia from "../assets/pinia.svg"
 
 const Projects = ({ t }) => {
 
@@ -10,6 +11,42 @@ const Projects = ({ t }) => {
         {t("eng.titleProjects")}
       </h2>
       <section className="min-h-screen p-3 grid grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))] gap-4 mb-8">
+
+<ProjectUnit 
+  title="CRUD-VUE3-PINIA"
+  img="bg-[url(/crud-vue3-pinia.jpg)]" 
+  gitHub="https://github.com/JCCRUZCHACON/FRONTEND-CRUD-VUE-PINIA"
+  demo="https://frontend-crud-vue-pinia.netlify.app/"
+  info="Frontend Vue3: App para hacer un crud en Vue3 + pinia ."
+  
+  skills={[
+    <img
+      src={vueIcon}
+      alt="Vue3"
+      title="Vue3"
+      className="w-6 h-6 transition-transform duration-300 hover:scale-110 hover:drop-shadow-md hover:brightness-110"
+    />,
+    <img
+      src={pinia}
+      alt="Pinia"
+      title="Pinia"
+      className="w-6 h-6 transition-transform duration-300 hover:scale-110 hover:drop-shadow-md hover:brightness-110"
+    />,
+    <i
+      className="bx bxl-javascript text-yellow-400 transition-transform duration-300 hover:scale-110 hover:drop-shadow-md"
+      title="JavaScript"
+    />,
+    <i
+      className="bx bxl-html5 text-orange-500 transition-transform duration-300 hover:scale-110 hover:drop-shadow-md"
+      title="HTML5"
+    />,
+    <i
+      className="bx bxl-css3 text-blue-600 transition-transform duration-300 hover:scale-110 hover:drop-shadow-md"
+      title="CSS3"
+    />,
+  ]}
+/>
+
 
 <ProjectUnit 
   title="ChatBot OpenAI App"
