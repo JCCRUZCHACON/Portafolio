@@ -12,6 +12,42 @@ const Projects = ({ t }) => {
       </h2>
       <section className="min-h-screen p-3 grid grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))] gap-4 mb-8">
 
+
+<ProjectUnit 
+  title="RPM APP MEDICA DE PACIENTES"
+  img="bg-[url(/app-medica.png)]" 
+  demo="https://medalerta.com//"
+  info="FULL STACK: RPM SEGUIMIENTO DE PACIENTES : CORREO DE PRUEBA: charly_jc22@hotmail.com PASSWORD: charly1234"
+  
+  skills={[
+    <i
+      className="bx bxl-javascript text-yellow-400 transition-transform duration-300 hover:scale-110 hover:drop-shadow-md"
+      title="JavaScript"
+    />,
+    <i
+      className="bx bxl-html5 text-orange-500 transition-transform duration-300 hover:scale-110 hover:drop-shadow-md"
+      title="HTML5"
+    />,
+    <i
+      className="bx bxl-css3 text-blue-600 transition-transform duration-300 hover:scale-110 hover:drop-shadow-md"
+      title="CSS3"
+    />,
+    <i
+      className="bx bxl-react text-cyan-400 transition-transform duration-300 hover:scale-110 hover:drop-shadow-md"
+      title="React"
+    />,
+    <i
+      className="bx bxl-redux text-purple-500 transition-transform duration-300 hover:scale-110 hover:drop-shadow-md"
+      title="Redux"
+    />,
+    <i
+      className="bx bxl-nodejs text-green-600 transition-transform duration-300 hover:scale-110 hover:drop-shadow-md"
+      title="Node.js"
+    />
+  ]}
+/>
+
+
 <ProjectUnit 
   title="CRUD-VUE3-PINIA"
   img="bg-[url(/crud-vue3-pinia.jpg)]" 
@@ -48,7 +84,7 @@ const Projects = ({ t }) => {
 />
 
 
-<ProjectUnit 
+{/* <ProjectUnit 
   title="ChatBot OpenAI App"
   img="bg-[url(/chatbot.jpg)]" 
   // gitHub="https://github.com/JCCRUZCHACON/WEB-CHATBOT-PERSONALIZADO-FRONTEND"
@@ -87,7 +123,7 @@ const Projects = ({ t }) => {
       title="Node.js"
     />
   ]}
-/>
+/> */}
 
 
 <ProjectUnit 
