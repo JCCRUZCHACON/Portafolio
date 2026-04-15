@@ -14,7 +14,7 @@ const Projects = ({ t }) => {
 
 
 <ProjectUnit 
-  title="RPM APP MEDICA DE PACIENTES"
+  title="RPM APP MEDICA DE PACIENTES AWS : RDS-EC2"
   img="bg-[url(/app-medica.png)]" 
   demo="https://medalerta.com//"
   info="FULL STACK: RPM SEGUIMIENTO DE PACIENTES : CORREO DE PRUEBA: charly_jc22@hotmail.com PASSWORD: charly1234"
